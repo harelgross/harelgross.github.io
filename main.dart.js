@@ -52427,7 +52427,7 @@ s=J.j1(s.b)
 o=m.fr
 if(o==null)o=B.qc
 n=m.cy[p]
-r.push(new A.le(q,s,40,o,n,m.a.c,"images/apple.png",null))}},
+r.push(new A.le(q,s,40,o,n,m.a.c,"assets/images/apple.png",null))}},
 wv(){var s,r,q=this,p=A.b([],t.rS)
 q.CD()
 q.U9()
@@ -52472,20 +52472,20 @@ return new A.tC(A.a3O(!0,s,!0,!0,s,s,!1),!0,new A.ZC(this),A.ev(s,s,B.p,s,s,s,s,
 FA(a){var s,r,q,p,o,n,m,l=this
 if(l.id)return""
 if(a===0){s=l.r
-if(s===B.bl)return"images/snake-pieces/head-right.png"
-else if(s===B.bX)return"images/snake-pieces/head-left.png"
-else if(s===B.bV)return"images/snake-pieces/head-top.png"
-else if(s===B.bW)return"images/snake-pieces/head-bottom.png"}else if(a===l.e-1){s=l.d
+if(s===B.bl)return"assets/images/snake-pieces/head-right.png"
+else if(s===B.bX)return"assets/images/snake-pieces/head-left.png"
+else if(s===B.bV)return"assets/images/snake-pieces/head-top.png"
+else if(s===B.bW)return"assets/images/snake-pieces/head-bottom.png"}else if(a===l.e-1){s=l.d
 r=s[a]
 q=r.a
 s=s[a-1]
 p=s.a
-if(q>p)return"images/snake-pieces/tail-left.png"
-if(q<p)return"images/snake-pieces/tail-right.png"
+if(q>p)return"assets/images/snake-pieces/tail-left.png"
+if(q<p)return"assets/images/snake-pieces/tail-right.png"
 r=r.b
 s=s.b
-if(r>s)return"images/snake-pieces/tail-top.png"
-if(r<s)return"images/snake-pieces/tail-bottom.png"}else{s=l.d
+if(r>s)return"assets/images/snake-pieces/tail-top.png"
+if(r<s)return"assets/images/snake-pieces/tail-bottom.png"}else{s=l.d
 r=s[a]
 q=r.b
 p=s[a-1]
@@ -52493,19 +52493,19 @@ o=p.b
 n=q>o
 if(!(n&&r.a>s[a+1].a))m=r.a>p.a&&q>s[a+1].b
 else m=!0
-if(m)return"images/snake-pieces/left-top.png"
+if(m)return"assets/images/snake-pieces/left-top.png"
 else{if(!(n&&r.a<s[a+1].a))n=r.a<p.a&&q>s[a+1].b
 else n=!0
-if(n)return"images/snake-pieces/right-top.png"
+if(n)return"assets/images/snake-pieces/right-top.png"
 else{n=q<o
 if(!(n&&r.a<s[a+1].a))m=r.a<p.a&&q<s[a+1].b
 else m=!0
-if(m)return"images/snake-pieces/right-bottom.png"
+if(m)return"assets/images/snake-pieces/right-bottom.png"
 else{if(!(n&&r.a>s[a+1].a))s=r.a>p.a&&q<s[a+1].b
 else s=!0
-if(s)return"images/snake-pieces/left-bottom.png"
-else if(q===o)return"images/snake-pieces/left-right.png"
-else if(r.a==p.a)return"images/snake-pieces/top-bottom.png"}}}}return""},
+if(s)return"assets/images/snake-pieces/left-bottom.png"
+else if(q===o)return"assets/images/snake-pieces/left-right.png"
+else if(r.a==p.a)return"assets/images/snake-pieces/top-bottom.png"}}}}return""},
 N(a,b){var s,r,q,p,o,n,m,l,k,j,i,h,g=this,f=null,e=t.w
 g.z=b.U(e).f.a.a
 g.Q=b.U(e).f.a.b
