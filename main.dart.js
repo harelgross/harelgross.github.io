@@ -52713,7 +52713,7 @@ A.Wf.prototype={
 mm(){var s=0,r=A.Z(t.z),q=this
 var $async$mm=A.a_(function(a,b){if(a===1)return A.W(b,r)
 while(true)switch(s){case 0:s=2
-return A.a1(q.a.k9(0,"assets/assets/sounds/backgroundSound.mp3",!0),$async$mm)
+return A.a1(q.a.k9(0,"sounds/backgroundSound.mp3",!0),$async$mm)
 case 2:return A.X(null,r)}})
 return A.Y($async$mm,r)},
 kw(){var s=0,r=A.Z(t.z),q=this
@@ -52725,13 +52725,13 @@ return A.Y($async$kw,r)},
 ph(){var s=0,r=A.Z(t.z),q=this
 var $async$ph=A.a_(function(a,b){if(a===1)return A.W(b,r)
 while(true)switch(s){case 0:s=2
-return A.a1(q.b.k9(0,"assets/assets/sounds/correctAnswerSound.mp3",!0),$async$ph)
+return A.a1(q.b.k9(0,"sounds/correctAnswerSound.mp3",!0),$async$ph)
 case 2:return A.X(null,r)}})
 return A.Y($async$ph,r)},
 pi(){var s=0,r=A.Z(t.z),q=this
 var $async$pi=A.a_(function(a,b){if(a===1)return A.W(b,r)
 while(true)switch(s){case 0:s=2
-return A.a1(q.b.k9(0,"assets/assets/sounds/wrongAnswerSound.wav",!0),$async$pi)
+return A.a1(q.b.k9(0,"sounds/wrongAnswerSound.wav",!0),$async$pi)
 case 2:return A.X(null,r)}})
 return A.Y($async$pi,r)}}
 A.Qa.prototype={}
